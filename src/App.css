@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+input {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4285;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+p {
+  color: red;
+  margin-top: 2px;
+  font-size: 14px;
+  text-align: left;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+  margin: 0;
+}
